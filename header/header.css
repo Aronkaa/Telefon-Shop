@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+header {
+  background-color: rgb(243, 167, 53);
+  line-height: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: black;
+  margin: 0 8px 0 8px;
+  transition-duration: 0.4s;
+}
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+nav img {
+  height: 85px;
+  float: left;
+  margin-right: 8px;
+}
