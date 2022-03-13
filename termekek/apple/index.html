@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="/header/header.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/termekek/termekek.css" />
     <link rel="stylesheet" href="/footer/footer.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,12 +13,16 @@
   <body>
     <header></header>
     <main>
-      <div><p>Vásároljon telefont tőlünk, alacsony árral és minőséggel</p></div>
+      <div class="mobile" onclick="photoview('13pro max.jpg')">
+        <img src="/telefonok/13pro max.jpg" alt="" />
+        <p>Apple iPhone 13 Pro Max</p>
+      </div>
     </main>
     <footer></footer>
     <script>
       $("header").load("/header/header.html");
       $("footer").load("/footer/footer.html");
     </script>
+    <script src="/termekek/main.js"></script>
   </body>
 </html>

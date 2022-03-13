@@ -1,7 +1,7 @@
 footer {
-  background-color: rgb(70, 61, 48);
+  background-color: rgb(44, 42, 42);
   padding: 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   text-align: center;
 }
 footer p {
@@ -11,4 +11,21 @@ footer p {
   font-size: 22px;
   color: white;
   margin-top: 25px;
+}
+footer .icons {
+  margin-top: 50px;
+}
+footer .icons a {
+  margin: 0 15px;
+}
+footer .icons a img {
+  background-color: white;
+  width: 60px;
+  margin: 0 10px;
+  padding: 15px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+footer .icons a img:hover {
+  background-color: rgb(243, 167, 53);
 }

@@ -4,7 +4,8 @@ header {
   line-height: 80px;
 }
 
-nav a {
+nav a,
+nav button {
   text-decoration: none;
   font-size: 25px;
   font-family: "Roboto Condensed", sans-serif;
@@ -12,12 +13,58 @@ nav a {
   color: black;
   margin: 0 8px 0 8px;
   transition-duration: 0.4s;
+  background-color: rgba(0, 0, 0, 0);
 }
-nav a:hover {
+nav a:hover,
+nav button:hover {
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 nav img {
   height: 85px;
   float: left;
   margin-right: 8px;
+}
+nav .icons {
+  float: right;
+}
+nav .icons a {
+  margin: 0 15px;
+}
+nav .icons a img {
+  width: 40px;
+  margin: 0 10px;
+}
+.dropdown {
+  display: inline;
+  position: relative;
+  padding: 35px 0;
+}
+.dropdowncontent {
+  position: absolute;
+  left: 0;
+  background-color: rgb(243, 167, 53);
+  height: 320px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: none;
+}
+.dropdowncontent a {
+  display: block;
+}
+.dropdowncontent::-webkit-scrollbar {
+  width: 5px;
+}
+.dropdowncontent::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+.dropdowncontent::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.705);
+  border-radius: 2px;
+}
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+.dropdowncontent:hover {
+  display: block;
 }
