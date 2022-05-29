@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "https://dh9cuahs6ezpz.cloudfront.net/images/products/550x550/image_4154151.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Processor/CPU",
+    "description": "This is a Processor that is the brain of the PC."
+  },
+  {
+    "id": 2,
+    "image": "https://www.tradeinn.com/f/13765/137650318/asus-rog-strix-b460-f-gaming-motherboard.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Motherboard/MB",
+    "description": "This is a motherboard, this goes into the case."
+  },
+  {
+    "id": 3,
+    "image": "https://www.tradeinn.com/f/13795/137956333/g.skill-pc3000-trident-z-2x16gb-ddr4-ram-memory.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Memory Module/RAM",
+    "description": "This is the RAM, that goes into the MB on the right side next to the CPU."
+  },
+  {
+    "id": 4,
+    "image": "https://5.imimg.com/data5/XO/NS/MY-9423735/graphic-cards.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Graphic Card/GPU",
+    "description": "This is the GPU, this sends video to the monitor and also an important part of the pc."
+  },
+  {
+    "id": 5,
+    "image": "https://c1.neweggimages.com/ProductImage/20-250-089-V02.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Solid State Drive/SSD",
+    "description": "This is the storage where all the programs and operation system is located."
+  },
+  {
+    "id": 6,
+    "image": "https://www.tradeinn.com/f/13824/138241983/msi-mpg-a850gf-850w-power-supply.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Power Supply/PSU",
+    "description": "This is the PSU that gives power to the components."
+  },
+  {
+    "id": 7,
+    "image": "https://www.aquatuning.us/media/image/ed/b4/69/Thermaltake_PC_Gehaeuse_V250_TG_ARGB_1019251_01_600x600.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Case",
+    "description": "This is the case, where all the components go in and then kaboom its a PC"
+  },
+  {
+    "id": 8,
+    "image": "https://i.pcmag.com/imagery/roundup-products/05PbGl5PZtP2GkwYYazo6A2.fit_lim.size_1050x591.v1646970622.jpg?quality=90&webp=true&resize=300,272",
+    "name": "Processor Cooler/CPU Cooler",
+    "description": "This cools down the processor. It can be liquid or air cooler."
+  }
+]
