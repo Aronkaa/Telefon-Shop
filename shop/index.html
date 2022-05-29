@@ -2,32 +2,21 @@
 <html lang="en">
   <head>
     <title>PC Shop</title>
-    <style>
-      #items-container {
-        display: grid;
-        grid-template-columns: auto auto;
-      }
-      .item {
-        margin: 20px 40px 20px 0px;
-      }
-      .item img {
-        width: 256px;
-        height: 256px;
-      }
-      .item ul {
-        list-style: none;
-      }
-      .item li {
-        font-size: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../header/header.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../footer/footer.css" />
   </head>
-  <body>
-    <button id="button">Reveal the Nudes ;D</button>
 
+  <body>
+    <header></header>
     <div id="items-container"></div>
+    <footer></footer>
     <script src="script.js"></script>
+    <script>
+      $("header").load("../header/header.html");
+      $("footer").load("../footer/footer.html");
+    </script>
   </body>
 </html>

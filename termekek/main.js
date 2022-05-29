@@ -6,5 +6,5 @@ function photoview(img) {
         <button onclick="close()">X</button>
       </div>
     </div>`;
-  main.innerText = main.innerText + template;
+  main.innerHTML = main.innerHTML + template;
 }

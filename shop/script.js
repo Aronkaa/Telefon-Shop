@@ -1,4 +1,3 @@
-document.getElementById("button").addEventListener("click", load);
 function load() {
   const xhr = new XMLHttpRequest();
   xhr.open("GET", "cuccok.json", true);
@@ -7,23 +6,26 @@ function load() {
       let items = JSON.parse(this.responseText);
       let output = "";
       for (let i in items) {
-        output +=
-          "<div class=item>" +
-          "<img src=" +
-          items[i].image +
-          "width=256 height=256>" +
-          "<ul>" +
-          "<li>Name:" +
-          items[i].name +
-          "</li>" +
-          "<li>Description:" +
-          items[i].description +
-          "</li>" +
-          "</ul>" +
-          "</div>";
+        output += `<div class="pc" onclick="photoview('${items[i].image}')"> 
+            <img src="${items[i].image}" alt="" />
+            <p>${items[i].name}</p>
+            </div>`;
       }
       document.getElementById("items-container").innerHTML = output;
     }
   };
   xhr.send();
+}
+
+load();
+
+function photoview(img) {
+  const main = document.querySelector("main");
+  const template = `<div class="outter">
+      <div class="photo">
+        <img src="${img}" alt="" />
+        <button onclick="close()">X</button>
+      </div>
+    </div>`;
+  main.innerHTML = main.innerHTML + template;
 }
