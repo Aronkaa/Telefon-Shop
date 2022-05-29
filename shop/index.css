@@ -12,8 +12,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  min-height: 85vh;
+  min-height: 95vh;
   width: 100%;
+}
+.description {
+  font-size: 19px !important;
 }
 .pc p {
   text-align: center;

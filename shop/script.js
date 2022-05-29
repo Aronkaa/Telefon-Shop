@@ -9,6 +9,7 @@ function load() {
         output += `<div class="pc" onclick="photoview('${items[i].image}')"> 
             <img src="${items[i].image}" alt="" />
             <p>${items[i].name}</p>
+            <p class="description">${items[i].description}</p> 
             </div>`;
       }
       document.getElementById("items-container").innerHTML = output;
